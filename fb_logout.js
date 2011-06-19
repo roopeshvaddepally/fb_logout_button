@@ -1,5 +1,11 @@
 (function() {
-  var logoutBtn, logoutForm, navHome;
+  
+// ==UserScript==
+// @name           FB_Logout_Button
+// @namespace      Adds logout button to Facebook beside home link
+// @include        *facebook.com*
+// ==/UserScript==
+;  var logoutBtn, logoutForm, navHome;
   logoutForm = $("logout_form");
   navHome = $("navHome");
   logoutBtn = document.createElement("li");
