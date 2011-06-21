@@ -4,7 +4,8 @@
 // @include        *facebook.com*
 // ==/UserScript==
 ;(function() {
-  var logoutBtn, logoutForm, navHome;
+  var $, logoutBtn, logoutForm, navHome;
+  $ = document.getElementById;
   logoutForm = $("logout_form");
   navHome = $("navHome");
   logoutBtn = document.createElement("li");

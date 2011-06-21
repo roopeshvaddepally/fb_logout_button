@@ -6,6 +6,7 @@
 // ==/UserScript==
 `
 (->
+  $ = document.getElementById
   logoutForm = $ "logout_form"
   navHome = $ "navHome"
   logoutBtn = document.createElement "li"
